@@ -1,0 +1,189 @@
+* {
+	margin: 0;
+}
+
+/**************************
+		NAVIGATION
+**************************/
+.navigation {
+	display: block;
+	background-color: #FE926B;
+	margin: 0;
+	height: 90px;
+
+}
+
+.navigation ul {
+	list-style: none;
+	float: right;
+	margin-right: 100px;
+	
+}
+
+.navigation ul li {
+	position: relative;
+	top: 15px;
+	display: inline-block;
+	margin: auto;
+	padding: 15px;
+
+}
+
+.navigation ul li a {
+	text-decoration: none;
+	font-family: "Concert One", cursive;
+	color: white;
+	font-size: 1.5em;
+}
+
+.nav-avocado-pic {
+	position: relative;
+	display: inline-block;
+	height: 30%;
+	width: 30%;
+	top: 20px;
+}
+
+.nav-avocado {
+	display: inline-block;
+	margin: 0 100px;
+}
+
+.nav-avocado a{
+	text-decoration: none;
+}
+
+span.A {
+	font-family: "Concert One", cursive;
+	color: white;
+	font-size: 1.5em;
+}
+
+/************************
+		SEARCH BOX
+************************/
+
+.search-box {
+	background-color: #F8F2D2;
+	width: 100%;
+	position: absolute;
+}
+
+input.searchbox {
+	border: none;
+	box-shadow: 5px 7px #B9BDBB;
+	margin: 20px 60px;
+	float: right;
+	height: 50px;
+	width: 25%;
+	font-size: 2em;
+	background-color: #F0F0F0;
+	
+}
+
+input[type="text"] {
+	padding: 5px 10px;
+}
+
+::placeholder {
+	color: #B9BDBB;
+}
+
+.search-bar {
+	position: relative;
+	float: right;
+	margin: 20px 60px;
+	left: 450px;
+	top: 10px;
+}
+
+/************************
+		AVOCADO PIC
+************************/
+
+.middle {
+	background-color: #F8F2D2;
+	overflow: auto;
+
+}
+
+.body-avocado {
+	width: 40%;
+	padding: 130px 50px 100px;
+	float: left;
+	overflow: auto;
+	margin-right: 30px
+}
+
+/****************************
+		PARAGRAPH
+****************************/
+
+p {
+	font-size: 45px;
+	text-align: left;
+	color: #7FAD65;
+	font-family: "Concert One", cursive;
+	padding: 130px 100px 50px ;
+}
+
+.avocado {
+	font-weight: bold;
+
+}
+
+.web, .app {
+	color: #F79367;
+}
+
+/*************************
+		BUTTONS
+*************************/
+
+button {
+	border: none;
+	float: left;
+	margin-bottom: 100px;
+}
+
+.quote {
+	color: white;
+	background-color: #89B993;
+	padding: 15px 40px;
+	font-size: 20px;
+	margin-left: 5px;
+
+}
+
+.case-studies {
+	color: white;
+	background-color: #FC9368;
+	padding: 15px 30px;
+	font-size: 20px;
+	margin: 0 30px;
+
+}
+
+/**************************
+		FOOTER
+**************************/
+
+footer {
+	background-color: #89B993;
+	text-align: center;
+}
+
+.social-media: {
+
+}
+
+.social-media a {
+	color: white;
+	display: inline-block;
+	padding: 20px 5px 50px;
+}
+
+.social-media i {
+	font-size: 25px;
+	padding: 0 20px;
+}
